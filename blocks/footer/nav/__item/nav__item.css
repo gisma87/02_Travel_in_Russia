@@ -1,0 +1,9 @@
+.nav__item {
+    list-style-type: none;
+}
+
+@media (max-width: 570px) {
+    .nav__item {
+        margin-bottom: 14px;
+    }
+}

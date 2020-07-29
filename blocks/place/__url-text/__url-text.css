@@ -1,0 +1,12 @@
+.place__url-text {
+    max-width: 484px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin: 0;
+    margin-bottom: 5px;
+}

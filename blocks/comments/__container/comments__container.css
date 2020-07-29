@@ -1,0 +1,34 @@
+.comments__container {
+    max-width: 1184px;
+    position: relative;
+    display: flex;
+    margin-top: 62px;
+}
+
+@media (max-width: 1023px) {
+    .comments__container {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .comments__container {
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 570px) {
+    .comments__container {
+        max-width: 343px;
+        margin-top: 44px;
+    }
+}
+
+@media (max-width: 374px) {
+    .comments__container {
+        max-width: 288px;
+        margin-top: 34px;
+    }
+}

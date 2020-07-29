@@ -1,0 +1,31 @@
+.footer__link {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    text-decoration: none;
+    margin-right: 20px;    
+    color: #FFFFFF;
+}
+
+@media (max-width: 1023px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+        margin-right: 1.15rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer__link {
+        margin-right: 0.7rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 41px;
+    }
+}

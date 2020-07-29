@@ -1,0 +1,14 @@
+.nav__items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 570px) {
+    .nav__items {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 16px;
+    }
+}

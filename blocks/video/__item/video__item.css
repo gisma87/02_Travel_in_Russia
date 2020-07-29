@@ -1,0 +1,103 @@
+.video__item_imgKamchatka {
+    background: url("../../../images/video_1.jpg"),
+    rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+}
+
+.video__item_imgKamchatka:hover {
+    background: url("../../../images/video_1.jpg"),
+    rgba(0,0,0,0.8);
+}
+
+.video__item_imgObservatory {
+    background: url("../../../images/video_2.jpg"),
+    rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+}
+
+.video__item_imgObservatory:hover {
+    background: url("../../../images/video_2.jpg"),
+    rgba(0,0,0,0.8);
+}
+
+.video__item {
+    width: 100%;
+    height: 323px;
+    
+    background-size: cover;
+    border-radius: 5px;
+    background-position: left bottom;
+    text-decoration: none;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 82px;
+}
+
+.video__item:first-child {
+    margin-right: 18px;
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video__item {
+        height: 288px;
+        padding-top: 81px;
+        padding-bottom: 34px;
+    }
+    }
+    
+@media (max-width: 1023px) {
+    .video__item {
+        max-width: 352px;
+        height: 200px;
+        padding: 76px 0 23px 25px;
+        justify-content: flex-end;
+    }
+    .video__item:first-child {
+        margin-right: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .video__item {
+        max-width: 400px;
+        height: 220px;
+        margin: 0;
+        margin-bottom: 8px;
+        justify-content: flex-end;
+        padding-bottom: 23px;
+        padding-top: 0px;
+        padding-left: 24px;
+    }
+
+    .video__item:first-child {
+        margin-bottom: 16px;
+        margin-right: 0;
+    }
+}
+    
+@media (max-width: 570px) {
+    .video__item {
+        max-width: 343px;
+        height: 200px;
+    }
+    .video__item:first-child {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 374px) {
+    .video__item {
+        max-width: 288px;
+        height: 192px;
+        padding-left: 16px;
+        padding-bottom: 17px;
+    }
+}

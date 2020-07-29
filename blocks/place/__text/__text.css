@@ -1,0 +1,33 @@
+.place__text {
+    grid-area: text;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .place__text {
+        max-width: 456px;
+    }
+    }
+@media (max-width: 1023px) {
+    .place__text {
+        max-width: 352px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place__text {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 570px) {
+    .place__text{
+        max-width: 343px;
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 374px) {
+    .place__text {
+        max-width: 288px;
+    }
+}

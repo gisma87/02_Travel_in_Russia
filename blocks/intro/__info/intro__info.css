@@ -1,0 +1,14 @@
+.intro__info {    
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+@media (max-width: 570px) {
+    .intro__info {
+        font-size: 0.75rem;
+        line-height: 1.188rem;
+    }
+}

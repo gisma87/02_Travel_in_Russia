@@ -1,0 +1,34 @@
+.place__img {
+    width: 460px;
+    grid-area: image;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .place__img {
+        width: 440px;
+    }
+}
+    
+@media (max-width: 1023px) {
+    .place__img {
+        width: 340px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place__img{
+        width: 400px;
+    }
+}
+    
+@media (max-width: 570px) {
+    .place__img {
+        width: 375px;
+    }
+} 
+
+@media (max-width: 374px) {
+    .place__img {
+        width: 320px;
+    }
+}

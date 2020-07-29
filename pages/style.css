@@ -1,0 +1,29 @@
+@import url("../fonts/inter.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/content/content.css");
+@import url("../blocks/footer/footer.css");
+
+.link:hover {
+  opacity: 0.7;
+}
+
+.page {
+  padding: 30px 0 48px 0;
+  box-sizing: border-box;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #2a2c2f;
+  color: #ffffff;
+
+  margin: 0 auto;
+}
+
+@media (max-width: 570px) {
+  .page {
+    padding-top: 16px;
+  }
+}

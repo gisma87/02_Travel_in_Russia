@@ -1,0 +1,38 @@
+.comments__comment {
+    max-width: 382px;
+    margin-right: 19px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.comments__comment:last-child {
+    margin-right: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .comments__comment {
+        max-width: 296px;
+    }
+    }
+@media (max-width: 1023px) {
+    .comments__comment {
+        justify-content: start;
+        align-items: center;
+        margin: 0;
+        max-width: 382px;
+        padding-bottom: 54px;
+    }
+}
+
+@media (max-width: 570px) {
+    .comments__comment {
+        max-width: 343px;
+    }
+}
+
+@media (max-width: 374px) {
+    .comments__comment {
+        max-width: 288px;
+    }
+}

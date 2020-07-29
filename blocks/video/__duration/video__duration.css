@@ -1,0 +1,23 @@
+.video__duration {
+    margin: 0;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    margin-top: 15%;
+
+    color: #FFFFFF;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .video__duration {
+       margin-top: 10%;
+    }
+    }
+@media (max-width: 1023px) {
+    .video__duration {
+        margin-top: 6px;
+    }
+}

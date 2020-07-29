@@ -1,0 +1,35 @@
+.lead__caption {
+    max-width: 636px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.625rem;
+    line-height: 1.188rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 0.3125rem;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1023px) {
+    .lead__caption {
+        line-height: 0.75rem;
+        margin-left: 1.5rem;
+        margin-top: 0.875rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__caption {
+        margin-top: 0.4rem;
+        margin-left: 1.1rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .lead__caption {
+        line-height: 0.75rem;
+        margin-left: 1rem;
+        margin-top: 0.3125rem;
+    }
+}

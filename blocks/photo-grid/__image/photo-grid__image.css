@@ -1,0 +1,17 @@
+.photo-grid__image {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+@media (max-width: 570px) {
+    .photo-grid__image {
+        height: 232px;
+    }
+  }
+
+  @media (max-width: 374px) {
+      .photo-grid__image {
+          height: 192px;
+      }
+  }

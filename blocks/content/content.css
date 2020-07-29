@@ -1,0 +1,50 @@
+@import url('../lead/lead.css');
+@import url('../photo-grid/photo-grid.css');
+@import url('../intro/intro.css');
+@import url('../places/places.css');
+@import url('../video/video.css');
+@import url('../comments/comments.css');
+@import url('../cover/cover.css');
+
+
+
+.content {
+    max-width: 1440px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .content {
+        max-width: 1024px;
+    }
+    }
+@media (max-width: 1023px) {
+    .content {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content {
+        max-width: 767px;
+    }
+}
+
+@media (max-width: 570px) {
+    .content {
+        max-width: 375px; 
+        padding-top: 50px;
+    }
+}
+
+
+
+
+
+
+
