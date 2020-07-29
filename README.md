@@ -7,4 +7,7 @@
 
 Цель спринта: адаптивная вёрстка по макету c использованием методологии БЭМ, pixel perfect.
 
+* * * * * 
+
 ![макет 1440 в jpg](https://github.com/gisma87/02_Travel_in_Russia/blob/master/TravelInRussia1440mini.jpg)
+
